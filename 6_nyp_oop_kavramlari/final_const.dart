@@ -1,7 +1,7 @@
 void main(List<String> args) {
   //final const immutable
-  var isim = "emre";
-  isim = "altunbilek";
+  var isim = "ozan";
+  isim = "onal";
 
   // final sayi = 5;
   // sayi = 10;
@@ -28,11 +28,11 @@ void main(List<String> args) {
     print("eşit değiller");
   }
 
-  final emre = const Ogrenci(5, "emre");
-  final Ogrenci emre2 = const Ogrenci(5, "emre");
-  final Ogrenci emre3 = const Ogrenci(6, "emre");
+  final ozan = const Ogrenci(5, "ozan");
+  final Ogrenci ozan2 = const Ogrenci(5, "ozan");
+  final Ogrenci ozan3 = const Ogrenci(6, "ozan");
 
-  if (emre == emre2) {
+  if (ozan == ozan2) {
     print("eşitler");
   } else {
     print("eşit değiller");
