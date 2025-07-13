@@ -1,7 +1,7 @@
 void main(List<String> args) {
   print("Program basladı");
   try {
-    int sayi = 100 ~/ int.parse("emre");
+    int sayi = 100 ~/ int.parse("ozan");
     print(sayi);
   } on UnsupportedError catch (e) {
     print(e.message);
