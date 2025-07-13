@@ -1,5 +1,4 @@
 void main(List<String> args) {
-
   //Sabit Liste :
   /*
   1)List <int> sayilar=List.filled(10,0);  //10 elemanlı her elemanı 0 a eşit olan int list tanımladık.
@@ -8,7 +7,6 @@ void main(List<String> args) {
   sayilar[0]=5;                            //0.indexi 5'e eşitledik.
   print(sayilar);                          //Listimizi yazdırdık.
    */
-
 
   //Büyüyen Liste :
   /*
@@ -51,9 +49,9 @@ void main(List<String> args) {
   //Map Kavramı :
   /* 
   1)Map<String,int> alanKodlari={"Ankara" :312,"Batman" :772};                  //Map oluşturduk. key=>String value=>int 
-  2)var bilgiler= <String,dynamic> {"ad":"Hasan","yaş ":21,"bekarMı" :true};    //Map oluşturduk. key=>String value=>dynamic
-  3)var map1={"ad":"Hasan Hüseyin"};                                            //Map1 oluşturduk.
-  var map2={"soyad":"ALTAN"};                                                   //Map2 oluşturduk.
+  2)var bilgiler= <String,dynamic> {"ad":"ozan","yaş ":21,"bekarMı" :true};    //Map oluşturduk. key=>String value=>dynamic
+  3)var map1={"ad":"oza "};                                            //Map1 oluşturduk.
+  var map2={"soyad":"onal"};                                                   //Map2 oluşturduk.
   var mapToplam={...map1,...map2};                                              //Maplari birleştirdik
   alanKodlari.containsKey("Batman")                                             //Keyi "Batman" olan var mı bool değer döndürür.
   alanKodlari.containsValue("Batman")                                           //value "Batman" olan var mı bool değer döndürür
